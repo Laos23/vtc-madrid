@@ -1,0 +1,1289 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "title": "Lengua castellana",
+      "sections": [
+        {
+          "title": "Leer antes de elegir",
+          "body": [
+            "Identifica si se pide una opción correcta, una incorrecta, un sinónimo o un contrario. En las preguntas con un texto, la respuesta debe derivarse de lo que se dice, no de una suposición."
+          ],
+          "bullets": [
+            "Subraya mentalmente NO, excepto e incorrecta.",
+            "Si hay un hueco, lee la frase entera con cada opción.",
+            "Comprueba quién realiza la acción y en qué momento."
+          ]
+        },
+        {
+          "title": "Concordancia y tiempos verbales",
+          "body": [
+            "El sujeto y el verbo concuerdan en número y persona: nosotros iremos, él conoce. El presente expresa un hecho actual o habitual; el pretérito perfecto simple, una acción pasada terminada; el imperfecto, una acción habitual o en desarrollo en el pasado."
+          ],
+          "bullets": [
+            "Presente: conduzco; pasado terminado: conduje; imperfecto: conducía; futuro: conduciré.",
+            "Estar + gerundio expresa una acción en desarrollo: estamos limpiando.",
+            "Haber + participio forma tiempos compuestos: había colocado.",
+            "La segunda persona del pretérito es llegaste, sin una s final."
+          ]
+        },
+        {
+          "title": "Condiciones, subjuntivo y conectores",
+          "body": [
+            "Los conectores explican la relación entre las partes de una oración. Aunque introduce una dificultad que no impide lo que sigue. Una condición real puede construirse con si + presente; una condición pasada no realizada suele usar si hubiera + participio y habría + participio."
+          ],
+          "bullets": [
+            "Si tengo tiempo, puedo esperar.",
+            "Si lo hubiera sabido, habría venido.",
+            "Cuando llegue mañana, revisaré los correos: presente de subjuntivo y futuro.",
+            "En referencias a lugares se usa donde; en preguntas, dónde."
+          ]
+        },
+        {
+          "title": "Preposiciones y ubicación",
+          "body": [
+            "Las preposiciones expresan relaciones de pertenencia, destino o lugar. Algunas locuciones necesitan su preposición completa; omitirla puede cambiar el sentido o volver incorrecta la frase."
+          ],
+          "bullets": [
+            "Casa de mi amigo: pertenencia.",
+            "Dentro de la caseta y frente al edificio: locuciones de lugar.",
+            "Hacia su madre: dirección del movimiento.",
+            "Sobre la mesa: posición por encima y apoyada en ella."
+          ]
+        },
+        {
+          "title": "Sinónimos, antónimos y polisemia",
+          "body": [
+            "Un sinónimo conserva un significado cercano; un antónimo expresa lo contrario. La polisemia permite varios significados relacionados o convencionales de una palabra y se resuelve por el contexto."
+          ],
+          "bullets": [
+            "Feliz/contento; difícil/complicado; valiente/intrépido; tranquilo/calmado.",
+            "Escaso/abundante; ordenado/caótico; suave/áspero; ancho/estrecho.",
+            "Banco puede ser un asiento o una entidad financiera.",
+            "Esporádico: ocasional; contumaz: obstinado; laconismo: brevedad al expresarse."
+          ]
+        },
+        {
+          "title": "Expresiones figuradas y analogías",
+          "body": [
+            "Una expresión figurada no se interpreta palabra por palabra. En una analogía identifica primero la relación: persona y vehículo, cualidad y objeto, categoría o entorno."
+          ],
+          "bullets": [
+            "Arrojar luz: aclarar una situación.",
+            "Tener la mosca detrás de la oreja: sospechar.",
+            "Tomar el pelo: bromear o engañar en tono de broma.",
+            "Lobo con piel de cordero: apariencia inofensiva que oculta peligro.",
+            "Conductor/coche y piloto/avión mantienen la relación de quien maneja un vehículo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Medio físico, navegación y Madrid",
+      "sections": [
+        {
+          "title": "Usar el navegador con seguridad",
+          "body": [
+            "Planifica el destino, las paradas y las alternativas antes de iniciar la marcha. Las indicaciones de voz reducen la necesidad de mirar la pantalla. Si hay un fallo o una duda, detente en un lugar permitido y seguro antes de manipular el dispositivo."
+          ],
+          "bullets": [
+            "Las señales y las normas de circulación prevalecen sobre el GPS.",
+            "Un soporte no autoriza a manipular el móvil durante la conducción.",
+            "Comprueba que el destino y la entrada seleccionados corresponden al servicio.",
+            "Elige alternativas con tráfico actualizado antes de salir."
+          ]
+        },
+        {
+          "title": "Funciones de las aplicaciones",
+          "body": [
+            "Cada ajuste tiene su menú: vista del mapa, direcciones guardadas, historial, tipo de vehículo y paradas intermedias. Mantener los mapas actualizados evita errores por cambios en las vías."
+          ],
+          "bullets": [
+            "Para varios destinos, utiliza añadir parada o múltiples paradas.",
+            "Borra datos desde historial o direcciones guardadas, según corresponda.",
+            "Configura el tipo de vehículo para obtener rutas compatibles.",
+            "Descarga las actualizaciones por los canales oficiales del fabricante."
+          ]
+        },
+        {
+          "title": "Orientación y grandes ejes",
+          "body": [
+            "Aprende la ubicación relativa de los destinos y los ejes principales, además de las direcciones concretas. Madrid tiene 21 distritos; una localidad fuera de la capital puede requerir un trayecto interurbano."
+          ],
+          "bullets": [
+            "Paseo de la Castellana: eje norte y área financiera; Plaza de Castilla es una referencia del norte.",
+            "Boadilla del Monte se sitúa al oeste de Madrid; Aranjuez, al sur.",
+            "La A-4 comunica Madrid con el sur de España.",
+            "El Escorial se relaciona con las carreteras M-505 y M-600.",
+            "Chamartín es una de las grandes estaciones ferroviarias."
+          ]
+        },
+        {
+          "title": "Destinos culturales y monumentos",
+          "body": [
+            "Agrupa lugares próximos para recordarlos como zonas. Centro reúne Sol, Plaza Mayor, La Latina y el entorno del Palacio Real; el eje del Prado concentra grandes museos."
+          ],
+          "bullets": [
+            "Museo del Prado: Paseo del Prado, distrito de Retiro.",
+            "Museo Sorolla: General Martínez Campos, 37.",
+            "Museo Nacional de Ciencias Naturales: José Gutiérrez Abascal, 2.",
+            "Palacio Real: calle de Bailén; Campo del Moro junto al palacio.",
+            "Congreso de los Diputados: Carrera de San Jerónimo.",
+            "Puerta del Sol: Oso y Madroño y estatua ecuestre de Carlos III.",
+            "El Retiro: estanque y Palacio de Cristal; El Capricho: jardín histórico y búnker."
+          ]
+        },
+        {
+          "title": "Otros destinos frecuentes",
+          "body": [
+            "Asocia la dirección completa con el lugar y evita confundir edificios de nombre parecido. Las entradas, cortes y accesos pueden cambiar, por lo que el servicio real requiere comprobación actual."
+          ],
+          "bullets": [
+            "Teatro La Latina: plaza de la Cebada, 2; Teatro Real: ópera.",
+            "Teatro de la Zarzuela: género lírico español; Valle-Inclán: teatro contemporáneo.",
+            "La Vaguada: Monforte de Lemos, 36; Plaza Río 2: avenida del Manzanares, 210.",
+            "Museo de las Ilusiones: Doctor Cortezo, 8; Casa Lucio: Cava Baja, 35.",
+            "IFEMA: recinto de ferias y congresos. Serrano: comercio de lujo; Ponzano: restauración.",
+            "San Isidro se celebra en mayo y El Rastro, habitualmente, los domingos."
+          ]
+        },
+        {
+          "title": "Etiquetas ambientales",
+          "body": [
+            "El distintivo clasifica vehículos según sus características y emisiones. La autorización para acceder a una zona concreta depende también de la ordenanza, de las excepciones y del episodio de contaminación."
+          ],
+          "bullets": [
+            "CERO, azul: eléctricos de batería, de autonomía extendida, pila de combustible e híbridos enchufables con autonomía eléctrica mínima de 40 km.",
+            "ECO: híbridos no enchufables, enchufables de menos de 40 km y determinados vehículos de gas que cumplen las condiciones exigidas.",
+            "C, verde: categorías de vehículos más recientes según combustible y norma Euro.",
+            "B, amarilla: incluye turismos de gasolina Euro 3, entre otras categorías.",
+            "No deduzcas permiso de entrada o estacionamiento solo por el color de una etiqueta."
+          ]
+        },
+        {
+          "title": "ZBE y calidad del aire",
+          "body": [
+            "Las zonas de bajas emisiones buscan reducir contaminación y mejorar la salud. Consulta la delimitación, los accesos y las restricciones vigentes antes del servicio; si el vehículo no cumple, busca una alternativa permitida."
+          ],
+          "bullets": [
+            "O3 es ozono; SO2, dióxido de azufre; CO2, dióxido de carbono; NO2, dióxido de nitrógeno.",
+            "La Ley 7/2021 prevé ZBE en municipios de más de 50.000 habitantes y otros supuestos.",
+            "Las restricciones por episodios de contaminación pueden añadirse a las ordinarias.",
+            "La señalización local manda: una ruta del GPS no equivale a una autorización."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Accesibilidad, atención y primeros auxilios",
+      "sections": [
+        {
+          "title": "Atención profesional",
+          "body": [
+            "Escucha, confirma el destino y comunica con claridad. Una queja se atiende con respeto, empatía y una explicación útil. La profesionalidad incluye seguridad, confidencialidad y un trato equitativo."
+          ],
+          "bullets": [
+            "No compenses un retraso incumpliendo normas de tráfico.",
+            "No recopiles ni compartas datos personales innecesarios.",
+            "Comprueba limpieza, temperatura y comodidad del vehículo.",
+            "Utiliza las opiniones de los clientes para mejorar el servicio.",
+            "Realiza pausas y evita la fatiga."
+          ]
+        },
+        {
+          "title": "Autonomía y accesibilidad",
+          "body": [
+            "Dirígete a la persona, pregunta si desea ayuda y respeta su decisión. Una misma discapacidad no implica las mismas necesidades en todos los usuarios. El objetivo es un transporte utilizable sin discriminación."
+          ],
+          "bullets": [
+            "Discapacidad visual: identifícate, explica el entorno y ofrece ayuda.",
+            "Discapacidad auditiva: mantén visible el rostro; ofrece texto y señales visuales.",
+            "Dificultad de habla: concede tiempo y lee con atención los apoyos de comunicación.",
+            "Discapacidad cognitiva: instrucciones breves, claras y ordenadas.",
+            "Movilidad reducida: ofrece asistencia al entrar y salir y guarda las ayudas de forma segura.",
+            "El umbral general de reconocimiento legal de un grado de discapacidad es igual o superior al 33%; no equivale a una definición clínica universal."
+          ]
+        },
+        {
+          "title": "Perros de asistencia, menores y ayudas",
+          "body": [
+            "El perro guía trabaja: permite su acceso y evita acariciarlo, alimentarlo o distraerlo. Pregunta cómo colocar ayudas y equipaje sin comprometer la seguridad del pasajero."
+          ],
+          "bullets": [
+            "No confundas un perro de asistencia con una mascota de compañía.",
+            "Respeta los sistemas de retención infantil y los requisitos aplicables al servicio.",
+            "Ofrece ayuda con cochecitos sin dar por supuesto que se desea.",
+            "Comprueba la sujeción segura de personas, equipaje y dispositivos."
+          ]
+        },
+        {
+          "title": "La conducta PAS",
+          "body": [
+            "Proteger, avisar y socorrer es el orden básico: primero evita otro accidente, después activa ayuda profesional y presta la asistencia que sabes realizar. En una emergencia real sigue las instrucciones del 112."
+          ],
+          "bullets": [
+            "Detén el vehículo en un lugar seguro y valora el riesgo antes de acercarte.",
+            "Informa al 112 de ubicación, número de víctimas y peligros.",
+            "Comprueba si la persona responde y si respira con normalidad.",
+            "No des agua ni medicamentos a una persona inconsciente.",
+            "No muevas a una víctima de tráfico salvo peligro o necesidad vital."
+          ]
+        },
+        {
+          "title": "Consciencia, respiración y RCP",
+          "body": [
+            "Hablar a la persona y observar su reacción ayuda a evaluar la consciencia. Una persona inconsciente que no respira con normalidad necesita ayuda urgente y reanimación según las instrucciones del 112; no esperes a la llegada de un médico para alertar."
+          ],
+          "bullets": [
+            "Pide que traigan un desfibrilador si hay uno disponible.",
+            "En adultos, la RCP combina compresiones y, cuando se sabe hacer, ventilaciones según la formación recibida.",
+            "La posición lateral de seguridad puede mantener la vía aérea de quien respira y no responde, valorando el posible traumatismo y las indicaciones de emergencias.",
+            "En accidentes, evita movimientos que desalineen cabeza, cuello y tronco."
+          ]
+        },
+        {
+          "title": "Heridas, hemorragias y quemaduras",
+          "body": [
+            "En una hemorragia externa, la presión directa sobre la herida con material limpio es una primera medida. Las quemaduras se enfrían con agua y se protegen sin arrancar material adherido. Una lesión importante requiere atención profesional."
+          ],
+          "bullets": [
+            "Herida leve: limpieza con agua y jabón; mordedura: limpiar y solicitar valoración sanitaria.",
+            "No retires objetos clavados ni improvises maniobras invasivas.",
+            "Hemorragia masiva: llama al 112 y sigue instrucciones; el torniquete exige uso adecuado y formación.",
+            "Parte amputada: protegerla y mantenerla fría, sin contacto directo con hielo.",
+            "Lesiones de tórax o quemaduras químicas: avisar de inmediato y seguir instrucciones específicas."
+          ]
+        },
+        {
+          "title": "Otras emergencias",
+          "body": [
+            "Protege la cabeza durante una convulsión sin inmovilizar a la persona ni introducir objetos en su boca. En un atragantamiento grave, la respuesta depende de la edad y la situación; pide ayuda y sigue la secuencia aprendida."
+          ],
+          "bullets": [
+            "Tos eficaz: anima a toser y vigila; si no puede hablar, toser o respirar, actúa y avisa.",
+            "Lactantes: golpes interescapulares y compresiones torácicas según formación; no compresiones abdominales.",
+            "Embarazo y parto: llama al 112 y evita un traslado apresurado.",
+            "Hinchazón de labios o dificultad respiratoria pueden indicar reacción alérgica grave.",
+            "Incendio: evacúa y aléjate; informa si se trata de un vehículo eléctrico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Marco jurídico VTC",
+      "sections": [
+        {
+          "title": "Distinguir las normas",
+          "body": [
+            "Diferencia las normas estatales de las autonómicas. La Ley 16/1987 es la Ley de Ordenación de los Transportes Terrestres estatal. El Decreto 5/2024 desarrolla la Ley 20/1998 de la Comunidad de Madrid en materia de VTC."
+          ],
+          "bullets": [
+            "Ley 16/1987: marco estatal del transporte terrestre.",
+            "Ley 20/1998: ordenación y coordinación del transporte urbano de la Comunidad de Madrid.",
+            "Decreto 5/2024: requisitos y condiciones de los servicios VTC en Madrid.",
+            "Decreto 101/2016: distintivos identificativos de los vehículos.",
+            "Comprueba las modificaciones y disposiciones transitorias cuando una pregunta pida un detalle temporal."
+          ]
+        },
+        {
+          "title": "Naturaleza del servicio y autorización",
+          "body": [
+            "El transporte VTC es transporte público discrecional de viajeros: se ofrece profesionalmente a terceros, pero no sigue necesariamente un horario o itinerario fijo como una línea regular. La autorización del vehículo o actividad es distinta del permiso personal del conductor."
+          ],
+          "bullets": [
+            "Transporte urbano e interurbano no son términos equivalentes.",
+            "Un recorrido interurbano rebasa el término de un único municipio.",
+            "Los servicios urbanos en Madrid requieren la correspondiente habilitación.",
+            "La autorización se otorga a una persona física o jurídica y exige cumplir los requisitos reglamentarios."
+          ]
+        },
+        {
+          "title": "Conductor y permiso",
+          "body": [
+            "El conductor debe reunir los requisitos exigidos y obtener el permiso correspondiente. Aprobar el examen no sustituye el trámite de expedición. El permiso debe mantenerse y renovarse."
+          ],
+          "bullets": [
+            "Permiso de conducir B con al menos dos años de antigüedad.",
+            "Examen de lengua, medio físico, atención/accesibilidad y marco jurídico, salvo exención aplicable.",
+            "Cumplir las condiciones personales y profesionales previstas.",
+            "Vigencia del permiso VTC: cinco años; después procede solicitar renovación.",
+            "La expedición exige acreditar condiciones y abonar la tasa.",
+            "Existe un Registro de Conductores; evita confundirlo con nombres de registros inventados."
+          ]
+        },
+        {
+          "title": "Contratación previa y registro",
+          "body": [
+            "El servicio se contrata antes de iniciarse y queda documentado por escrito o por medios electrónicos. La contratación a distancia requiere medios que permitan documentarla. El VTC no opera buscando pasajeros espontáneos en la calle."
+          ],
+          "bullets": [
+            "No circular ni estacionar con el propósito de captar personas sin contratación previa.",
+            "Comunicar los datos requeridos al Registro de Comunicaciones antes del servicio.",
+            "El contrato identifica el servicio y las partes; la hoja de ruta recoge datos de su realización.",
+            "El ámbito territorial permitido condiciona el lugar de inicio de los servicios."
+          ]
+        },
+        {
+          "title": "Vehículos y distintivos",
+          "body": [
+            "Los vehículos deben reunir las condiciones técnicas, de accesibilidad, seguro e identificación aplicables. La identificación VTC y el distintivo ambiental tienen funciones diferentes."
+          ],
+          "bullets": [
+            "Distintivos VTC: parte superior derecha de la luna delantera y parte inferior izquierda de la trasera.",
+            "El distintivo trasero del banco de estudio mide 8 × 14 cm.",
+            "Los distintivos deben ser visibles desde el exterior.",
+            "El seguro de responsabilidad civil cubre la responsabilidad frente a terceros en los términos contratados y legalmente exigidos.",
+            "La antigüedad, etiqueta ambiental y excepciones se estudian junto con el régimen transitorio aplicable."
+          ]
+        },
+        {
+          "title": "Usuarios, itinerario y precios",
+          "body": [
+            "La prestación debe respetar los derechos del usuario, la accesibilidad y las condiciones pactadas. El itinerario debe responder al servicio contratado y a una solución directa o adecuada."
+          ],
+          "bullets": [
+            "Mantén un medio accesible de comunicación y atención cuando sea exigible.",
+            "El equipaje de quienes ocupan el vehículo puede transportarse con ellos.",
+            "Las tarifas se pactan, sin perjuicio de límites o medidas específicas previstos legalmente.",
+            "No confundas una regla general con una excepción por alta demanda o accesibilidad."
+          ]
+        },
+        {
+          "title": "Infracciones y claves del banco",
+          "body": [
+            "Las infracciones dependen de la conducta concreta y de la norma que la tipifica. Lee si se pregunta por captación, distintivos, itinerario o ámbito de inicio; una palabra puede cambiar la categoría."
+          ],
+          "bullets": [
+            "No llevar distintivos exigibles aparece como infracción grave en el material.",
+            "El inicio fuera del ámbito obligatorio aparece como muy grave.",
+            "Las fuentes de muestra contienen algunas claves contradictorias: la aplicación conserva la clave de origen y muestra una nota cuando se ha detectado una discrepancia.",
+            "Las explicaciones son material de estudio añadido; la fuente oficial original puede abrirse desde cada pregunta."
+          ]
+        },
+        {
+          "title": "Actualización normativa de julio de 2026",
+          "body": [
+            "El Decreto 59/2026 modifica el Decreto 5/2024. Debe distinguirse el material histórico de muestra de los cambios posteriores; las claves originales de los PDF se conservan para que puedas contrastarlas."
+          ],
+          "bullets": [
+            "Incluye una excepción ambiental para vehículos adaptados con etiqueta C.",
+            "Actualiza la identificación exterior de los VTC.",
+            "La Comunidad de Madrid informa de la incorporación obligatoria de los nuevos distintivos desde el 3 de noviembre de 2026.",
+            "Consulta los textos y la información administrativa enlazados al final del temario."
+          ]
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "extra-1-01",
+      "module": 1,
+      "text": "¿Qué frase mantiene la concordancia entre sujeto y verbo?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Nosotros conduce con prudencia."
+        },
+        {
+          "id": "c",
+          "text": "Nosotros conduzco con prudencia."
+        },
+        {
+          "id": "a",
+          "text": "Nosotros conducimos con prudencia."
+        },
+        {
+          "id": "d",
+          "text": "Nosotros conducen con prudencia."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Nosotros exige la primera persona del plural: conducimos.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-02",
+      "module": 1,
+      "text": "¿Qué opción completa «Si hubiera salido antes, ___ a tiempo»?",
+      "options": [
+        {
+          "id": "a",
+          "text": "habría llegado"
+        },
+        {
+          "id": "b",
+          "text": "llegaré"
+        },
+        {
+          "id": "c",
+          "text": "llego"
+        },
+        {
+          "id": "d",
+          "text": "llegando"
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Una condición pasada no realizada se combina normalmente con condicional compuesto.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-03",
+      "module": 1,
+      "text": "¿Cuál es el antónimo de «prudente»?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Imprudente."
+        },
+        {
+          "id": "b",
+          "text": "Cauteloso."
+        },
+        {
+          "id": "c",
+          "text": "Cuidadoso."
+        },
+        {
+          "id": "d",
+          "text": "Previsor."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El prefijo im- niega aquí la cualidad de actuar con cautela.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-04",
+      "module": 1,
+      "text": "¿Qué significa «poner los puntos sobre las íes»?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aclarar algo con precisión."
+        },
+        {
+          "id": "b",
+          "text": "Hablar sin sentido."
+        },
+        {
+          "id": "c",
+          "text": "Cambiar de destino."
+        },
+        {
+          "id": "d",
+          "text": "Dejar un asunto pendiente."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La expresión figurada alude a precisar una situación y dejar claras las condiciones.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-05",
+      "module": 1,
+      "text": "¿Cuál es la forma correcta para preguntar por un lugar?",
+      "options": [
+        {
+          "id": "b",
+          "text": "¿Donde está la estación?"
+        },
+        {
+          "id": "c",
+          "text": "¿Dónde están la estación?"
+        },
+        {
+          "id": "d",
+          "text": "¿Dónde estar la estación?"
+        },
+        {
+          "id": "a",
+          "text": "¿Dónde está la estación?"
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Dónde lleva tilde en preguntas y el sujeto singular estación concuerda con está.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-06",
+      "module": 1,
+      "text": "¿Qué palabra es sinónima de «breve»?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Extenso."
+        },
+        {
+          "id": "a",
+          "text": "Corto."
+        },
+        {
+          "id": "c",
+          "text": "Duradero."
+        },
+        {
+          "id": "d",
+          "text": "Interminable."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Breve y corto pueden referirse a poca duración o extensión.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-07",
+      "module": 1,
+      "text": "¿Qué completa «El pasajero dejó la mochila ___ asiento»?",
+      "options": [
+        {
+          "id": "b",
+          "text": "dentro el"
+        },
+        {
+          "id": "a",
+          "text": "sobre el"
+        },
+        {
+          "id": "c",
+          "text": "hacia del"
+        },
+        {
+          "id": "d",
+          "text": "desde al"
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Sobre expresa la ubicación de un objeto apoyado encima de una superficie.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-1-08",
+      "module": 1,
+      "text": "«El aviso permitió salir antes y evitar el atasco». ¿Qué consecuencia tuvo el aviso?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Obligó a cancelar el viaje."
+        },
+        {
+          "id": "a",
+          "text": "Facilitó anticipar la salida."
+        },
+        {
+          "id": "c",
+          "text": "Creó un atasco."
+        },
+        {
+          "id": "d",
+          "text": "Impuso una multa."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La consecuencia se obtiene directamente del texto: salir antes.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-09",
+      "module": 2,
+      "text": "El GPS propone un giro prohibido por una señal. ¿Qué debes hacer?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Seguir siempre el GPS."
+        },
+        {
+          "id": "c",
+          "text": "Girar si no hay tráfico."
+        },
+        {
+          "id": "a",
+          "text": "Respetar la señal y buscar una ruta permitida."
+        },
+        {
+          "id": "d",
+          "text": "Ignorar la señal por llevar pasajero."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El navegador ayuda a orientarse; no sustituye la señalización ni autoriza maniobras prohibidas.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-10",
+      "module": 2,
+      "text": "Necesitas introducir una nueva dirección durante el trayecto. ¿Cómo lo haces?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Escribes mientras conduces."
+        },
+        {
+          "id": "c",
+          "text": "Sujetas el móvil con una mano."
+        },
+        {
+          "id": "a",
+          "text": "Te detienes en un lugar seguro antes de manipular el dispositivo."
+        },
+        {
+          "id": "d",
+          "text": "Miras la pantalla en cada cruce."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Detenerse de forma segura evita desviar la atención y las manos durante la marcha.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-11",
+      "module": 2,
+      "text": "¿Qué relación ayuda a recordar el Campo del Moro?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Forma parte de IFEMA."
+        },
+        {
+          "id": "c",
+          "text": "Rodea Chamartín."
+        },
+        {
+          "id": "a",
+          "text": "Está junto al Palacio Real."
+        },
+        {
+          "id": "d",
+          "text": "Está dentro de La Vaguada."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El jardín se asocia geográficamente con el entorno del Palacio Real.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-12",
+      "module": 2,
+      "text": "¿Qué gas corresponde a la fórmula O3?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Dióxido de carbono."
+        },
+        {
+          "id": "c",
+          "text": "Dióxido de azufre."
+        },
+        {
+          "id": "d",
+          "text": "Nitrógeno."
+        },
+        {
+          "id": "a",
+          "text": "Ozono."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La fórmula O3 representa una molécula formada por tres átomos de oxígeno.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-13",
+      "module": 2,
+      "text": "¿Qué dato debes comprobar antes de entrar en una ZBE?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Solo el color del coche."
+        },
+        {
+          "id": "c",
+          "text": "Solo que el GPS sugiera entrar."
+        },
+        {
+          "id": "d",
+          "text": "Solo la hora de la reserva."
+        },
+        {
+          "id": "a",
+          "text": "La regulación de acceso vigente y si el vehículo cumple sus condiciones."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El distintivo es una clasificación; el acceso depende de la regulación y de las excepciones locales.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-14",
+      "module": 2,
+      "text": "¿Qué opción facilita recibir indicaciones sin mirar continuamente una pantalla?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guía de voz."
+        },
+        {
+          "id": "b",
+          "text": "El zoom manual constante."
+        },
+        {
+          "id": "c",
+          "text": "El historial abierto."
+        },
+        {
+          "id": "d",
+          "text": "El mapa con más animaciones."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Las instrucciones sonoras reducen la necesidad de apartar la mirada de la vía.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-15",
+      "module": 2,
+      "text": "¿Qué carretera se asocia al eje de Madrid hacia el sur de España?",
+      "options": [
+        {
+          "id": "b",
+          "text": "A-1."
+        },
+        {
+          "id": "c",
+          "text": "A-6."
+        },
+        {
+          "id": "a",
+          "text": "A-4."
+        },
+        {
+          "id": "d",
+          "text": "M-30."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La A-4 es el corredor radial de Andalucía; la M-30 es una vía de circunvalación urbana.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-2-16",
+      "module": 2,
+      "text": "¿Cuál de estos lugares es un recinto de ferias y congresos?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Campo del Moro."
+        },
+        {
+          "id": "a",
+          "text": "IFEMA."
+        },
+        {
+          "id": "c",
+          "text": "Puerta del Sol."
+        },
+        {
+          "id": "d",
+          "text": "Casa Lucio."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "IFEMA concentra recintos de exposición y eventos, un destino frecuente en servicios profesionales.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-17",
+      "module": 3,
+      "text": "Un usuario con muletas rechaza amablemente tu ayuda. ¿Cómo actúas?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Insistes y lo sujetas."
+        },
+        {
+          "id": "a",
+          "text": "Respetas su decisión y permaneces disponible."
+        },
+        {
+          "id": "c",
+          "text": "Retiras las muletas."
+        },
+        {
+          "id": "d",
+          "text": "Hablas solo con su acompañante."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Ofrecer asistencia no implica imponerla: respetar la autonomía forma parte de la accesibilidad.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-18",
+      "module": 3,
+      "text": "Un pasajero no oye bien tus indicaciones. ¿Qué alternativa ayuda?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Gritar desde atrás."
+        },
+        {
+          "id": "c",
+          "text": "Usar más tecnicismos."
+        },
+        {
+          "id": "a",
+          "text": "Mostrarle por escrito una indicación clara."
+        },
+        {
+          "id": "d",
+          "text": "Dejar de comunicarte."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El texto ofrece un canal visual alternativo cuando la información sonora no resulta accesible.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-19",
+      "module": 3,
+      "text": "¿Cuál es el primer objetivo al llegar a un accidente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evitar nuevos riesgos y proteger la zona."
+        },
+        {
+          "id": "b",
+          "text": "Mover a todos los heridos."
+        },
+        {
+          "id": "c",
+          "text": "Dar agua a las víctimas."
+        },
+        {
+          "id": "d",
+          "text": "Fotografiar los vehículos."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La P de PAS es proteger: una ayuda no debe generar otro accidente.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-20",
+      "module": 3,
+      "text": "¿Qué información resulta útil al llamar al 112?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Solo la matrícula propia."
+        },
+        {
+          "id": "c",
+          "text": "La opinión sobre quién tiene culpa."
+        },
+        {
+          "id": "d",
+          "text": "El precio del viaje."
+        },
+        {
+          "id": "a",
+          "text": "Ubicación, víctimas y peligros presentes."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Los servicios de emergencia necesitan localizar el incidente y conocer su gravedad para movilizar recursos.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-21",
+      "module": 3,
+      "text": "¿Qué conducta protege a un perro de asistencia mientras trabaja?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Ofrecerle comida sin consultar."
+        },
+        {
+          "id": "a",
+          "text": "Evitar distraerlo."
+        },
+        {
+          "id": "c",
+          "text": "Jugar con él."
+        },
+        {
+          "id": "d",
+          "text": "Separarlo del usuario."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La atención del perro es parte de su función de orientación y seguridad.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-22",
+      "module": 3,
+      "text": "Un cliente presenta una queja por un retraso. ¿Cuál es la mejor respuesta inicial?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Interrumpirlo."
+        },
+        {
+          "id": "c",
+          "text": "Culpar a otro pasajero."
+        },
+        {
+          "id": "d",
+          "text": "Acelerar incumpliendo normas."
+        },
+        {
+          "id": "a",
+          "text": "Escuchar y explicar la situación con respeto."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Escuchar permite entender el problema y responder sin poner en riesgo la seguridad.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-23",
+      "module": 3,
+      "text": "¿Qué acción respeta la privacidad de un pasajero?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Publicar su destino."
+        },
+        {
+          "id": "c",
+          "text": "Guardar sus conversaciones."
+        },
+        {
+          "id": "d",
+          "text": "Enviar su teléfono a conocidos."
+        },
+        {
+          "id": "a",
+          "text": "No compartir detalles de su trayecto con terceros sin motivo legítimo."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El servicio exige tratar solo la información necesaria y mantener su confidencialidad.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-3-24",
+      "module": 3,
+      "text": "En una emergencia, ¿por qué debes indicar que el vehículo incendiado es eléctrico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Para que los servicios de emergencia conozcan el riesgo específico."
+        },
+        {
+          "id": "b",
+          "text": "Para evitar llamar a bomberos."
+        },
+        {
+          "id": "c",
+          "text": "Para acercarse a la batería."
+        },
+        {
+          "id": "d",
+          "text": "Para verter combustible."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La información sobre la propulsión ayuda a los equipos profesionales a preparar su intervención.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-25",
+      "module": 4,
+      "text": "¿Qué distingue la autorización VTC del permiso del conductor?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Son el mismo documento."
+        },
+        {
+          "id": "a",
+          "text": "La primera habilita la actividad en sus condiciones y el segundo acredita al conductor."
+        },
+        {
+          "id": "c",
+          "text": "Ninguno es necesario."
+        },
+        {
+          "id": "d",
+          "text": "La autorización sustituye el permiso B."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Actividad, vehículo y conductor tienen requisitos diferentes y documentos que no se sustituyen entre sí.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-26",
+      "module": 4,
+      "text": "¿Qué significa que un servicio sea discrecional?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Que puede incumplir las normas."
+        },
+        {
+          "id": "c",
+          "text": "Que siempre es gratuito."
+        },
+        {
+          "id": "a",
+          "text": "No está sujeto necesariamente a un horario e itinerario fijos de una línea regular."
+        },
+        {
+          "id": "d",
+          "text": "Que no debe documentarse."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Discrecional describe la organización del transporte, no una exención de obligaciones.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-27",
+      "module": 4,
+      "text": "¿Cuándo debe contratarse un servicio VTC?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Solo después del pago final."
+        },
+        {
+          "id": "c",
+          "text": "Cuando termine el trayecto."
+        },
+        {
+          "id": "d",
+          "text": "No hace falta contratarlo."
+        },
+        {
+          "id": "a",
+          "text": "Antes de iniciarse."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La contratación previa diferencia el modelo VTC de la captación espontánea de pasajeros.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-28",
+      "module": 4,
+      "text": "¿Qué documento no sustituye el permiso de conductor VTC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "El justificante de haber aprobado el examen."
+        },
+        {
+          "id": "b",
+          "text": "El permiso expedido por el órgano competente."
+        },
+        {
+          "id": "c",
+          "text": "El permiso VTC vigente."
+        },
+        {
+          "id": "d",
+          "text": "La acreditación definitiva correspondiente."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Aprobar es un requisito; la expedición del permiso es un trámite posterior.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-29",
+      "module": 4,
+      "text": "¿Para qué sirven los distintivos identificativos VTC?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Para indicar el nombre del pasajero."
+        },
+        {
+          "id": "a",
+          "text": "Para identificar exteriormente el vehículo autorizado."
+        },
+        {
+          "id": "c",
+          "text": "Para reemplazar el seguro."
+        },
+        {
+          "id": "d",
+          "text": "Para permitir cualquier estacionamiento."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La identificación facilita reconocer el vehículo y comprobar el cumplimiento del régimen aplicable.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-30",
+      "module": 4,
+      "text": "¿Qué implica rebasar el término de un municipio en un recorrido?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Que deja de ser transporte."
+        },
+        {
+          "id": "c",
+          "text": "Que no hace falta autorización."
+        },
+        {
+          "id": "a",
+          "text": "Que el trayecto puede tener carácter interurbano."
+        },
+        {
+          "id": "d",
+          "text": "Que el conductor cambia de permiso B."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "Urbano e interurbano se distinguen por el ámbito del recorrido, no por la duración del viaje.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-31",
+      "module": 4,
+      "text": "¿Qué debes hacer si el permiso VTC llega al final de su vigencia?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Seguir utilizándolo indefinidamente."
+        },
+        {
+          "id": "c",
+          "text": "Cambiar el distintivo ambiental."
+        },
+        {
+          "id": "d",
+          "text": "Realizar solo trayectos nocturnos."
+        },
+        {
+          "id": "a",
+          "text": "Solicitar su renovación conforme al procedimiento aplicable."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "La caducidad no desaparece por cambiar de horario o vehículo: debe tramitarse la renovación.",
+      "difficulty": 2
+    },
+    {
+      "id": "extra-4-32",
+      "module": 4,
+      "text": "¿Qué norma autonómica desarrolla el Decreto 5/2024 en materia de VTC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Ley 20/1998 de la Comunidad de Madrid."
+        },
+        {
+          "id": "b",
+          "text": "El Código Penal."
+        },
+        {
+          "id": "c",
+          "text": "La Ley de Propiedad Horizontal."
+        },
+        {
+          "id": "d",
+          "text": "La Ley de Marcas."
+        }
+      ],
+      "correct": "a",
+      "official": false,
+      "explanation": "El título del decreto lo vincula a la Ley de Ordenación y Coordinación de los Transportes Urbanos de Madrid.",
+      "difficulty": 2
+    }
+  ],
+  "sources": [
+    {
+      "title": "Comunidad de Madrid: pruebas de conductor VTC y requisitos",
+      "url": "https://www.comunidad.madrid/transporte/pruebas-conductor-vtc"
+    },
+    {
+      "title": "BOCM: Decreto 5/2024, desarrollo de la Ley 20/1998",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2024/01/11/BOCM-20240111-1.PDF"
+    },
+    {
+      "title": "BOCM: Decreto 59/2026, modificación del régimen VTC",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/02/BOCM-20260702-1.PDF"
+    },
+    {
+      "title": "Comunidad de Madrid: autorizaciones VTC y nuevos distintivos",
+      "url": "https://www.comunidad.madrid/transporte/autorizaciones-arrendamiento-vehiculos-conductor-vtc"
+    },
+    {
+      "title": "Comunidad de Madrid: expedición y renovación del permiso VTC",
+      "url": "https://sede.comunidad.madrid/autorizaciones-licencias-permisos-carnes/permiso-conductor-vtc"
+    },
+    {
+      "title": "BOE: Ley 7/2021 de cambio climático, texto consolidado",
+      "url": "https://www.boe.es/eli/es/l/2021/05/20/7/con"
+    },
+    {
+      "title": "BOE: derechos de las personas con discapacidad, RDL 1/2013",
+      "url": "https://www.boe.es/eli/es/rdlg/2013/11/29/1/con"
+    },
+    {
+      "title": "DGT: distintivo ambiental CERO",
+      "url": "https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/etiqueta-cero/"
+    },
+    {
+      "title": "Cruz Roja: conducta PAS en carretera",
+      "url": "https://www.cruzroja.es/prevencion/carretera_03.html"
+    },
+    {
+      "title": "BOE: accesibilidad en los modos de transporte, RD 1544/2007",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20785"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+    <meta name="theme-color" content="#244d9b">
+    <meta name="description" content="Tu espacio para estudiar el permiso VTC de Madrid. Temario, preguntas oficiales y simulacros con progreso guardado.">
+    <title>VTC Madrid · Tu espacio de estudio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="src/theme-boot.js"></script>
+    <link rel="stylesheet" href="src/styles.css">
+    <script type="module" src="src/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <div id="app"><main class="loading"><h1>VTC Madrid</h1><p>Preparando tu espacio de estudio…</p></main></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div id="sr-live" class="visually-hidden" aria-live="polite"></div>
+    <dialog id="modal" aria-labelledby="modal-title"></dialog>
+    <noscript>Activa JavaScript para utilizar la plataforma.</noscript>
+  </body>
+</html>

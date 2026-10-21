@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "file": "ejemplo-prueba-i.pdf",
+      "pages": 13,
+      "questions": 60,
+      "keys": 60,
+      "sha256": "a2c17ebd7deb513f4e44da5a6c6128d0fa13437faaa5c08664e8238915ccb9b3"
+    },
+    {
+      "file": "ejemplo-prueba-ii.pdf",
+      "pages": 16,
+      "questions": 60,
+      "keys": 60,
+      "sha256": "682d741e0fcd189d729587909b398265c0f054fdf6ee3e2c169394511c783868"
+    },
+    {
+      "file": "ejemplo-prueba-iii.pdf",
+      "pages": 12,
+      "questions": 60,
+      "keys": 60,
+      "sha256": "aede647ad41df43b11878bc8a2510b5705a827d69c77c6cab329348080179bb1"
+    },
+    {
+      "file": "ejemplo-prueba-iv.pdf",
+      "pages": 12,
+      "questions": 60,
+      "keys": 60,
+      "sha256": "57e1a394b42282887ebf2fe91fcb91e138d8b8ecced4606de73fc6c8ef54ab7a"
+    },
+    {
+      "file": "muestra_modulo_i_-_conocimientos_de_lengua_castellana.pdf",
+      "pages": 11,
+      "questions": 50,
+      "keys": 50,
+      "sha256": "62707383eaaea7eed2446fa7b7710ab461583b78d3cf9a5c77e551ffad8e8ebd"
+    },
+    {
+      "file": "muestra_modulo_ii_-_conocimientos_del_medio_fisico.pdf",
+      "pages": 11,
+      "questions": 50,
+      "keys": 50,
+      "sha256": "36321a5425005b112ed8f1d17bd992ce2781e2b702061064aad54ff4cc3a0c38"
+    },
+    {
+      "file": "muestra_modulo_iii_-_conocimientos_de_accesibilidad.pdf",
+      "pages": 12,
+      "questions": 51,
+      "keys": 51,
+      "sha256": "2f92b21ee4d16355681e8155e0c84e9b4846c815cde3c536115e92e32ecb50ba"
+    },
+    {
+      "file": "muestra_modulo_iv_-_conocimientos_del_marco_juridico.pdf",
+      "pages": 12,
+      "questions": 51,
+      "keys": 51,
+      "sha256": "22a55381d7dab181f924d044cc3253984629398d7771b086e726889584095e61"
+    }
+  ],
+  "totalOccurrences": 442,
+  "uniqueQuestions": 437,
+  "modules": {
+    "1": 98,
+    "2": 121,
+    "3": 120,
+    "4": 98
+  }
+}
