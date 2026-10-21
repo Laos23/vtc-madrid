@@ -42,8 +42,12 @@ export function discardedOption(question, order) {
 }
 
 // level 1: cómo leer; 2: dónde repasar; 3: descartar una opción incorrecta.
-export function nextHint(question, level, sections, order) {
-  if (level <= 1) return { level: 1, text: NEGATIONS.some(rule => rule.test(question.text)) ? 'Fíjate en cómo está planteada: ¿pide lo verdadero o lo que NO lo es? Léela despacio.' : 'Relee el enunciado y descarta las opciones que lo contradigan. Una pista: busca las palabras clave.' };
+// custom (data/hints.json): pista escrita para esta pregunta; sustituye a las genéricas de los niveles 1 y 2.
+export function nextHint(question, level, sections, order, custom) {
+  const negated = NEGATIONS.some(rule => rule.test(question.text));
+  if (custom && level <= 1) return { level: 1, text: negated && !/\bNO\b/.test(custom.concept) ? `Ojo: busca la opción que NO encaja. ${custom.concept}` : custom.concept };
+  if (custom && level === 2) return Number.isInteger(custom.section) && custom.section >= 0 && custom.section < sections.length ? { level: 2, text: custom.focus, section: custom.section } : { level: 2, text: custom.focus };
+  if (level <= 1) return { level: 1, text: negated ? 'Fíjate en cómo está planteada: ¿pide lo verdadero o lo que NO lo es? Léela despacio.' : 'Relee el enunciado y descarta las opciones que lo contradigan. Una pista: busca las palabras clave.' };
   if (level === 2) {
     const section = sectionFor(question, sections);
     return section === null

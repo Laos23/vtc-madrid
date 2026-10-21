@@ -14,7 +14,7 @@ const icon = name => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
 const button = (text, action, attrs = '', cls = 'button') => `<button class="${cls}" data-action="${action}" ${attrs}>${text}</button>`;
 const badge = (text, cls = '') => `<span class="badge ${cls}">${escape(text)}</span>`;
 const moduleName = id => MODULES.find(m => m.id === Number(id))?.name || 'Todos los módulos';
-let bank = [], official = [], examples = [], content, explanations, report, state, meta, profiles, revs = {};
+let bank = [], official = [], examples = [], content, explanations, report, hints = {}, state, meta, profiles, revs = {};
 let route = '', filter = { module:'', query:'', source:'official', status:'' }, pendingConfig = null, pendingRestore = null, reviewFilter = 'all', saving = Promise.resolve(), lastSaved = true;
 let navOpen = false, expiryRunning = false, saveRevision = 0, switching = false, nudgeTimer = null, hopNext = false, profileKeyNav = false, rendering = false;
 // gens[cuenta] sube cada vez que la copia en memoria se sustituye por la guardada: las escrituras pendientes de antes se descartan.
@@ -340,7 +340,7 @@ function testPage() {
   const policy = hintPolicy(s);
   const sections = content.modules.find(m => m.id === q.module)?.sections || [];
   const hintLevel = policy.hints ? s.hints?.[q.id] || 0 : 0;
-  const hint = hintLevel ? nextHint(q, hintLevel, sections, s.order[q.id]) : null;
+  const hint = hintLevel ? nextHint(q, hintLevel, sections, s.order[q.id], hints[q.id]) : null;
   const discard = !revealed && hintLevel >= 3 ? hint.discard : null;
   return `${heading(s.title,`${s.mode === 'study' ? 'Modo Estudio · Corrección inmediata' : 'Modo Examen · Corrección al entregar'}${s.kind === 'extra' ? ' · Preguntas generadas con IA' : ''}`,`<span class="timer" id="timer">${clock(s.deadline ? s.deadline-Date.now() : (s.elapsedMs||0)+Date.now()-s.resumedAt)}</span>`)}<div class="test-layout"><section class="test-question"><div class="question-top">${badge(q.official ? `Módulo ${q.module} · ${MODULES[q.module-1].short}` : `EXTRA · Módulo ${q.module}`,q.official ? '' : 'extra')}<span>Pregunta ${s.index+1} de ${s.questionIds.length}</span></div><h2 id="question-title" tabindex="-1">${escape(q.text)}</h2><div class="answers" role="group" aria-labelledby="question-title">${s.order[q.id].map((id,i) => {
     const option = q.options.find(o => o.id === id);
@@ -590,7 +590,7 @@ channel?.addEventListener('message', ({ data }) => { if (state && PROFILES.inclu
 async function init() {
   try {
     const load = async name => { const response = await fetch(`data/${name}.json`); if (!response.ok) throw new Error(`No se ha podido cargar ${name}.`); return response.json(); };
-    [official, examples, content, explanations, report] = await Promise.all(['questions','examples','content','explanations','import-report'].map(load));
+    [official, examples, content, explanations, report, hints] = await Promise.all([...['questions','examples','content','explanations','import-report'].map(load), load('hints').catch(() => ({}))]);
     bank = [...official,...content.extras];
     bank.forEach(q => byId.set(q.id,q));
     const stored = await openStorage();
