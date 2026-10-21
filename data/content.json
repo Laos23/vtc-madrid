@@ -13,7 +13,36 @@
             "Subraya mentalmente NO, excepto e incorrecta.",
             "Si hay un hueco, lee la frase entera con cada opción.",
             "Comprueba quién realiza la acción y en qué momento."
-          ]
+          ],
+          "goal": "Evitar fallos por leer mal qué pide la pregunta.",
+          "kinds": [
+            "trampa",
+            "consejo",
+            "consejo"
+          ],
+          "highlight": [
+            "una incorrecta",
+            "no de una suposición",
+            "NO, excepto e incorrecta"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Antes de marcar una respuesta",
+            "items": [
+              {
+                "label": "¿Qué se pide?",
+                "text": "Una opción correcta, una incorrecta, un sinónimo o un contrario."
+              },
+              {
+                "label": "Lee con cada opción",
+                "text": "Si hay un hueco, prueba la frase entera con cada una."
+              },
+              {
+                "label": "Comprueba el detalle",
+                "text": "Quién realiza la acción y en qué momento."
+              }
+            ]
+          }
         },
         {
           "title": "Concordancia y tiempos verbales",
@@ -25,7 +54,54 @@
             "Estar + gerundio expresa una acción en desarrollo: estamos limpiando.",
             "Haber + participio forma tiempos compuestos: había colocado.",
             "La segunda persona del pretérito es llegaste, sin una s final."
-          ]
+          ],
+          "goal": "Elegir el tiempo verbal correcto y comprobar que sujeto y verbo concuerdan.",
+          "kinds": [
+            "ejemplo",
+            "regla",
+            "regla",
+            "trampa"
+          ],
+          "highlight": [
+            "número y persona",
+            "acción pasada terminada",
+            "habitual o en desarrollo en el pasado",
+            "llegaste, sin una s final"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "El verbo en cada tiempo",
+            "head": [
+              "Forma",
+              "Ejemplo"
+            ],
+            "rows": [
+              [
+                "Presente: hecho actual o habitual",
+                "conduzco"
+              ],
+              [
+                "Pretérito perfecto simple: pasado terminado",
+                "conduje"
+              ],
+              [
+                "Imperfecto: habitual o en desarrollo en el pasado",
+                "conducía"
+              ],
+              [
+                "Futuro",
+                "conduciré"
+              ],
+              [
+                "Estar + gerundio: acción en desarrollo",
+                "estamos limpiando"
+              ],
+              [
+                "Haber + participio: tiempo compuesto",
+                "había colocado"
+              ]
+            ]
+          }
         },
         {
           "title": "Condiciones, subjuntivo y conectores",
@@ -37,7 +113,48 @@
             "Si lo hubiera sabido, habría venido.",
             "Cuando llegue mañana, revisaré los correos: presente de subjuntivo y futuro.",
             "En referencias a lugares se usa donde; en preguntas, dónde."
-          ]
+          ],
+          "goal": "Completar oraciones con el conector y el tiempo verbal adecuados.",
+          "kinds": [
+            "ejemplo",
+            "ejemplo",
+            "ejemplo",
+            "regla"
+          ],
+          "highlight": [
+            "Aunque",
+            "si + presente",
+            "si hubiera + participio",
+            "habría + participio",
+            "donde",
+            "dónde"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "Estructuras con su ejemplo",
+            "head": [
+              "Estructura",
+              "Ejemplo"
+            ],
+            "rows": [
+              [
+                "Si + presente (condición real)",
+                "Si tengo tiempo, puedo esperar."
+              ],
+              [
+                "Si hubiera + participio y habría + participio (condición pasada no realizada)",
+                "Si lo hubiera sabido, habría venido."
+              ],
+              [
+                "Cuando + presente de subjuntivo, con futuro",
+                "Cuando llegue mañana, revisaré los correos."
+              ],
+              [
+                "Donde (lugar) y dónde (pregunta)",
+                "En referencias a lugares, donde; en preguntas, dónde."
+              ]
+            ]
+          }
         },
         {
           "title": "Preposiciones y ubicación",
@@ -49,6 +166,17 @@
             "Dentro de la caseta y frente al edificio: locuciones de lugar.",
             "Hacia su madre: dirección del movimiento.",
             "Sobre la mesa: posición por encima y apoyada en ella."
+          ],
+          "goal": "Saber qué relación expresa cada preposición y no dejar locuciones incompletas.",
+          "kinds": [
+            "ejemplo",
+            "ejemplo",
+            "ejemplo",
+            "ejemplo"
+          ],
+          "highlight": [
+            "preposición completa",
+            "cambiar el sentido"
           ]
         },
         {
@@ -61,7 +189,45 @@
             "Escaso/abundante; ordenado/caótico; suave/áspero; ancho/estrecho.",
             "Banco puede ser un asiento o una entidad financiera.",
             "Esporádico: ocasional; contumaz: obstinado; laconismo: brevedad al expresarse."
-          ]
+          ],
+          "goal": "Distinguir sinónimos de antónimos y elegir el significado de una palabra según el contexto.",
+          "kinds": [
+            "ejemplo",
+            "ejemplo",
+            "ejemplo",
+            "clave"
+          ],
+          "highlight": [
+            "significado cercano",
+            "lo contrario",
+            "se resuelve por el contexto"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "Parejas que aparecen en las preguntas",
+            "head": [
+              "Sinónimos",
+              "Antónimos"
+            ],
+            "rows": [
+              [
+                "feliz / contento",
+                "escaso / abundante"
+              ],
+              [
+                "difícil / complicado",
+                "ordenado / caótico"
+              ],
+              [
+                "valiente / intrépido",
+                "suave / áspero"
+              ],
+              [
+                "tranquilo / calmado",
+                "ancho / estrecho"
+              ]
+            ]
+          }
         },
         {
           "title": "Expresiones figuradas y analogías",
@@ -74,6 +240,18 @@
             "Tomar el pelo: bromear o engañar en tono de broma.",
             "Lobo con piel de cordero: apariencia inofensiva que oculta peligro.",
             "Conductor/coche y piloto/avión mantienen la relación de quien maneja un vehículo."
+          ],
+          "goal": "Entender expresiones que no se leen al pie de la letra y resolver analogías.",
+          "kinds": [
+            "ejemplo",
+            "ejemplo",
+            "ejemplo",
+            "ejemplo",
+            "ejemplo"
+          ],
+          "highlight": [
+            "no se interpreta palabra por palabra",
+            "identifica primero la relación"
           ]
         }
       ]
@@ -92,7 +270,37 @@
             "Un soporte no autoriza a manipular el móvil durante la conducción.",
             "Comprueba que el destino y la entrada seleccionados corresponden al servicio.",
             "Elige alternativas con tráfico actualizado antes de salir."
-          ]
+          ],
+          "goal": "Usar el GPS sin poner en riesgo la conducción ni el servicio.",
+          "kinds": [
+            "regla",
+            "trampa",
+            "consejo",
+            "consejo"
+          ],
+          "highlight": [
+            "Las señales y las normas de circulación prevalecen sobre el GPS",
+            "no autoriza",
+            "detente en un lugar permitido y seguro"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Antes, durante y si algo falla",
+            "items": [
+              {
+                "label": "Antes de salir",
+                "text": "Planifica destino, paradas y alternativas con tráfico actualizado."
+              },
+              {
+                "label": "En marcha",
+                "text": "Sigue las indicaciones de voz para mirar menos la pantalla."
+              },
+              {
+                "label": "Si hay un fallo o una duda",
+                "text": "Detente en un lugar permitido y seguro antes de tocar el dispositivo."
+              }
+            ]
+          }
         },
         {
           "title": "Funciones de las aplicaciones",
@@ -104,7 +312,46 @@
             "Borra datos desde historial o direcciones guardadas, según corresponda.",
             "Configura el tipo de vehículo para obtener rutas compatibles.",
             "Descarga las actualizaciones por los canales oficiales del fabricante."
-          ]
+          ],
+          "goal": "Encontrar rápido en qué menú de la aplicación está cada ajuste.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "consejo"
+          ],
+          "highlight": [
+            "añadir parada",
+            "múltiples paradas",
+            "tipo de vehículo",
+            "canales oficiales del fabricante"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "Qué quieres hacer y dónde se hace",
+            "head": [
+              "Quiero…",
+              "Usa"
+            ],
+            "rows": [
+              [
+                "Ir a varios destinos",
+                "Añadir parada o múltiples paradas"
+              ],
+              [
+                "Borrar datos",
+                "Historial o direcciones guardadas"
+              ],
+              [
+                "Rutas compatibles con el coche",
+                "Tipo de vehículo"
+              ],
+              [
+                "Mapas al día",
+                "Actualizaciones por los canales oficiales del fabricante"
+              ]
+            ]
+          }
         },
         {
           "title": "Orientación y grandes ejes",
@@ -117,7 +364,45 @@
             "La A-4 comunica Madrid con el sur de España.",
             "El Escorial se relaciona con las carreteras M-505 y M-600.",
             "Chamartín es una de las grandes estaciones ferroviarias."
-          ]
+          ],
+          "goal": "Situar destinos y grandes ejes de Madrid, no solo memorizar direcciones.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave"
+          ],
+          "highlight": [
+            "21 distritos",
+            "trayecto interurbano",
+            "norte",
+            "oeste",
+            "sur"
+          ],
+          "visual": {
+            "type": "compass",
+            "caption": "Referencias por punto cardinal",
+            "center": "Madrid",
+            "items": [
+              {
+                "dir": "N",
+                "text": "Paseo de la Castellana y Plaza de Castilla"
+              },
+              {
+                "dir": "O",
+                "text": "Boadilla del Monte"
+              },
+              {
+                "dir": "S",
+                "text": "Aranjuez y la A-4 hacia el sur de España"
+              }
+            ],
+            "notes": [
+              "El Escorial: carreteras M-505 y M-600.",
+              "Chamartín: una de las grandes estaciones ferroviarias."
+            ]
+          }
         },
         {
           "title": "Destinos culturales y monumentos",
@@ -132,7 +417,40 @@
             "Congreso de los Diputados: Carrera de San Jerónimo.",
             "Puerta del Sol: Oso y Madroño y estatua ecuestre de Carlos III.",
             "El Retiro: estanque y Palacio de Cristal; El Capricho: jardín histórico y búnker."
-          ]
+          ],
+          "goal": "Recordar dónde está cada monumento agrupando los lugares por zonas.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave"
+          ],
+          "highlight": [
+            "como zonas",
+            "Centro",
+            "eje del Prado"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "Agrupa por zonas",
+            "head": [
+              "Zona",
+              "Qué reúne"
+            ],
+            "rows": [
+              [
+                "Centro",
+                "Sol, Plaza Mayor, La Latina y el entorno del Palacio Real"
+              ],
+              [
+                "Eje del Prado",
+                "Grandes museos, como el Museo del Prado"
+              ]
+            ]
+          }
         },
         {
           "title": "Otros destinos frecuentes",
@@ -146,7 +464,47 @@
             "Museo de las Ilusiones: Doctor Cortezo, 8; Casa Lucio: Cava Baja, 35.",
             "IFEMA: recinto de ferias y congresos. Serrano: comercio de lujo; Ponzano: restauración.",
             "San Isidro se celebra en mayo y El Rastro, habitualmente, los domingos."
-          ]
+          ],
+          "goal": "Asociar cada destino con su dirección y no confundir lugares de nombre parecido.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "clave"
+          ],
+          "highlight": [
+            "dirección completa",
+            "nombre parecido",
+            "comprobación actual"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "Teatros que se confunden",
+            "head": [
+              "Teatro",
+              "Qué lo distingue"
+            ],
+            "rows": [
+              [
+                "Teatro La Latina",
+                "Plaza de la Cebada, 2"
+              ],
+              [
+                "Teatro Real",
+                "Ópera"
+              ],
+              [
+                "Teatro de la Zarzuela",
+                "Género lírico español"
+              ],
+              [
+                "Valle-Inclán",
+                "Teatro contemporáneo"
+              ]
+            ]
+          }
         },
         {
           "title": "Etiquetas ambientales",
@@ -159,7 +517,50 @@
             "C, verde: categorías de vehículos más recientes según combustible y norma Euro.",
             "B, amarilla: incluye turismos de gasolina Euro 3, entre otras categorías.",
             "No deduzcas permiso de entrada o estacionamiento solo por el color de una etiqueta."
-          ]
+          ],
+          "goal": "Reconocer cada distintivo ambiental sin confundirlo con un permiso de acceso.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "trampa"
+          ],
+          "highlight": [
+            "ordenanza",
+            "excepciones",
+            "episodio de contaminación",
+            "40 km",
+            "menos de 40 km",
+            "Euro 3",
+            "solo por el color"
+          ],
+          "visual": {
+            "type": "badges",
+            "caption": "Los cuatro distintivos ambientales",
+            "items": [
+              {
+                "label": "CERO",
+                "tone": "cero",
+                "text": "Azul. Eléctricos de batería, de autonomía extendida o de pila de combustible, e híbridos enchufables con al menos 40 km de autonomía eléctrica."
+              },
+              {
+                "label": "ECO",
+                "tone": "eco",
+                "text": "Híbridos no enchufables, enchufables de menos de 40 km y algunos vehículos de gas."
+              },
+              {
+                "label": "C",
+                "tone": "c",
+                "text": "Verde. Vehículos más recientes según combustible y norma Euro."
+              },
+              {
+                "label": "B",
+                "tone": "b",
+                "text": "Amarilla. Incluye turismos de gasolina Euro 3."
+              }
+            ]
+          }
         },
         {
           "title": "ZBE y calidad del aire",
@@ -171,7 +572,46 @@
             "La Ley 7/2021 prevé ZBE en municipios de más de 50.000 habitantes y otros supuestos.",
             "Las restricciones por episodios de contaminación pueden añadirse a las ordinarias.",
             "La señalización local manda: una ruta del GPS no equivale a una autorización."
-          ]
+          ],
+          "goal": "Saber qué comprobar antes de entrar en una zona de bajas emisiones.",
+          "kinds": [
+            "clave",
+            "clave",
+            "regla",
+            "trampa"
+          ],
+          "highlight": [
+            "Ley 7/2021",
+            "50.000 habitantes",
+            "pueden añadirse a las ordinarias",
+            "no equivale a una autorización"
+          ],
+          "visual": {
+            "type": "badges",
+            "caption": "Contaminantes que debes reconocer",
+            "items": [
+              {
+                "label": "O3",
+                "tone": "neutral",
+                "text": "Ozono"
+              },
+              {
+                "label": "SO2",
+                "tone": "neutral",
+                "text": "Dióxido de azufre"
+              },
+              {
+                "label": "CO2",
+                "tone": "neutral",
+                "text": "Dióxido de carbono"
+              },
+              {
+                "label": "NO2",
+                "tone": "neutral",
+                "text": "Dióxido de nitrógeno"
+              }
+            ]
+          }
         }
       ]
     },
@@ -190,6 +630,18 @@
             "Comprueba limpieza, temperatura y comodidad del vehículo.",
             "Utiliza las opiniones de los clientes para mejorar el servicio.",
             "Realiza pausas y evita la fatiga."
+          ],
+          "goal": "Atender a los clientes con un trato profesional, seguro y respetuoso.",
+          "kinds": [
+            "trampa",
+            "regla",
+            "consejo",
+            "consejo",
+            "consejo"
+          ],
+          "highlight": [
+            "respeto, empatía y una explicación útil",
+            "seguridad, confidencialidad y un trato equitativo"
           ]
         },
         {
@@ -204,6 +656,20 @@
             "Discapacidad cognitiva: instrucciones breves, claras y ordenadas.",
             "Movilidad reducida: ofrece asistencia al entrar y salir y guarda las ayudas de forma segura.",
             "El umbral general de reconocimiento legal de un grado de discapacidad es igual o superior al 33%; no equivale a una definición clínica universal."
+          ],
+          "goal": "Ayudar a cada persona según sus necesidades, preguntando antes de actuar.",
+          "kinds": [
+            "consejo",
+            "consejo",
+            "consejo",
+            "consejo",
+            "consejo",
+            "clave"
+          ],
+          "highlight": [
+            "pregunta si desea ayuda y respeta su decisión",
+            "no implica las mismas necesidades",
+            "igual o superior al 33%"
           ]
         },
         {
@@ -216,6 +682,17 @@
             "Respeta los sistemas de retención infantil y los requisitos aplicables al servicio.",
             "Ofrece ayuda con cochecitos sin dar por supuesto que se desea.",
             "Comprueba la sujeción segura de personas, equipaje y dispositivos."
+          ],
+          "goal": "Tratar correctamente perros de asistencia, menores, ayudas y equipaje.",
+          "kinds": [
+            "trampa",
+            "regla",
+            "consejo",
+            "consejo"
+          ],
+          "highlight": [
+            "permite su acceso",
+            "evita acariciarlo, alimentarlo o distraerlo"
           ]
         },
         {
@@ -229,7 +706,37 @@
             "Comprueba si la persona responde y si respira con normalidad.",
             "No des agua ni medicamentos a una persona inconsciente.",
             "No muevas a una víctima de tráfico salvo peligro o necesidad vital."
-          ]
+          ],
+          "goal": "Actuar en el orden correcto si presencias un accidente.",
+          "kinds": [
+            "regla",
+            "regla",
+            "regla",
+            "trampa",
+            "trampa"
+          ],
+          "highlight": [
+            "Proteger, avisar y socorrer",
+            "112"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Conducta PAS, en este orden",
+            "items": [
+              {
+                "label": "Proteger",
+                "text": "Para en un lugar seguro y valora el riesgo antes de acercarte."
+              },
+              {
+                "label": "Avisar",
+                "text": "Llama al 112: ubicación, número de víctimas y peligros."
+              },
+              {
+                "label": "Socorrer",
+                "text": "Comprueba si responde y respira, y presta la ayuda que sabes dar."
+              }
+            ]
+          }
         },
         {
           "title": "Consciencia, respiración y RCP",
@@ -241,7 +748,42 @@
             "En adultos, la RCP combina compresiones y, cuando se sabe hacer, ventilaciones según la formación recibida.",
             "La posición lateral de seguridad puede mantener la vía aérea de quien respira y no responde, valorando el posible traumatismo y las indicaciones de emergencias.",
             "En accidentes, evita movimientos que desalineen cabeza, cuello y tronco."
-          ]
+          ],
+          "goal": "Valorar si una persona responde y respira, y saber qué hacer en cada caso.",
+          "kinds": [
+            "consejo",
+            "regla",
+            "regla",
+            "regla"
+          ],
+          "highlight": [
+            "no respira con normalidad",
+            "no esperes a la llegada de un médico para alertar",
+            "desfibrilador",
+            "posición lateral de seguridad"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Qué valorar y qué hacer",
+            "items": [
+              {
+                "label": "¿Responde?",
+                "text": "Háblale y observa su reacción."
+              },
+              {
+                "label": "¿Respira con normalidad?",
+                "text": "Si está inconsciente y no respira con normalidad, la ayuda es urgente."
+              },
+              {
+                "label": "Alerta",
+                "text": "Llama al 112 sin esperar a un médico y pide un desfibrilador si lo hay."
+              },
+              {
+                "label": "Actúa",
+                "text": "RCP según las instrucciones del 112. Si respira y no responde, posición lateral de seguridad, valorando un posible traumatismo."
+              }
+            ]
+          }
         },
         {
           "title": "Heridas, hemorragias y quemaduras",
@@ -254,6 +796,20 @@
             "Hemorragia masiva: llama al 112 y sigue instrucciones; el torniquete exige uso adecuado y formación.",
             "Parte amputada: protegerla y mantenerla fría, sin contacto directo con hielo.",
             "Lesiones de tórax o quemaduras químicas: avisar de inmediato y seguir instrucciones específicas."
+          ],
+          "goal": "Dar los primeros cuidados sin empeorar una herida, una hemorragia o una quemadura.",
+          "kinds": [
+            "regla",
+            "trampa",
+            "regla",
+            "regla",
+            "regla"
+          ],
+          "highlight": [
+            "presión directa",
+            "se enfrían con agua",
+            "sin arrancar material adherido",
+            "sin contacto directo con hielo"
           ]
         },
         {
@@ -267,6 +823,20 @@
             "Embarazo y parto: llama al 112 y evita un traslado apresurado.",
             "Hinchazón de labios o dificultad respiratoria pueden indicar reacción alérgica grave.",
             "Incendio: evacúa y aléjate; informa si se trata de un vehículo eléctrico."
+          ],
+          "goal": "Reaccionar ante convulsiones, atragantamientos, partos, alergias e incendios.",
+          "kinds": [
+            "regla",
+            "trampa",
+            "regla",
+            "clave",
+            "regla"
+          ],
+          "highlight": [
+            "sin inmovilizar a la persona ni introducir objetos en su boca",
+            "no compresiones abdominales",
+            "reacción alérgica grave",
+            "vehículo eléctrico"
           ]
         }
       ]
@@ -286,7 +856,43 @@
             "Decreto 5/2024: requisitos y condiciones de los servicios VTC en Madrid.",
             "Decreto 101/2016: distintivos identificativos de los vehículos.",
             "Comprueba las modificaciones y disposiciones transitorias cuando una pregunta pida un detalle temporal."
-          ]
+          ],
+          "goal": "Saber qué norma regula cada cosa y si es estatal o de la Comunidad de Madrid.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "clave",
+            "consejo"
+          ],
+          "highlight": [
+            "Ley 16/1987",
+            "Ley 20/1998",
+            "Decreto 5/2024",
+            "Decreto 101/2016"
+          ],
+          "visual": {
+            "type": "timeline",
+            "caption": "Las normas, por orden de fecha",
+            "items": [
+              {
+                "date": "1987",
+                "text": "Ley 16/1987: transporte terrestre, estatal."
+              },
+              {
+                "date": "1998",
+                "text": "Ley 20/1998: transporte urbano de la Comunidad de Madrid."
+              },
+              {
+                "date": "2016",
+                "text": "Decreto 101/2016: distintivos de los vehículos."
+              },
+              {
+                "date": "2024",
+                "text": "Decreto 5/2024: servicios VTC en Madrid; desarrolla la Ley 20/1998."
+              }
+            ]
+          }
         },
         {
           "title": "Naturaleza del servicio y autorización",
@@ -298,7 +904,42 @@
             "Un recorrido interurbano rebasa el término de un único municipio.",
             "Los servicios urbanos en Madrid requieren la correspondiente habilitación.",
             "La autorización se otorga a una persona física o jurídica y exige cumplir los requisitos reglamentarios."
-          ]
+          ],
+          "goal": "Entender qué es un servicio VTC y qué diferencia la autorización del permiso del conductor.",
+          "kinds": [
+            "trampa",
+            "clave",
+            "regla",
+            "regla"
+          ],
+          "highlight": [
+            "transporte público discrecional de viajeros",
+            "no sigue necesariamente un horario o itinerario fijo",
+            "distinta del permiso personal del conductor",
+            "no son términos equivalentes"
+          ],
+          "visual": {
+            "type": "table",
+            "caption": "No confundas",
+            "head": [
+              "Concepto",
+              "Qué es"
+            ],
+            "rows": [
+              [
+                "Autorización",
+                "Del vehículo o de la actividad; se otorga a una persona física o jurídica."
+              ],
+              [
+                "Permiso del conductor",
+                "Personal: es distinto de la autorización."
+              ],
+              [
+                "Interurbano",
+                "Rebasa el término de un único municipio; no equivale a urbano."
+              ]
+            ]
+          }
         },
         {
           "title": "Conductor y permiso",
@@ -312,7 +953,44 @@
             "Vigencia del permiso VTC: cinco años; después procede solicitar renovación.",
             "La expedición exige acreditar condiciones y abonar la tasa.",
             "Existe un Registro de Conductores; evita confundirlo con nombres de registros inventados."
-          ]
+          ],
+          "goal": "Conocer los requisitos para obtener, mantener y renovar el permiso de conductor VTC.",
+          "kinds": [
+            "clave",
+            "clave",
+            "regla",
+            "clave",
+            "regla",
+            "trampa"
+          ],
+          "highlight": [
+            "dos años",
+            "cinco años",
+            "no sustituye el trámite de expedición",
+            "Registro de Conductores"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Del examen a la renovación",
+            "items": [
+              {
+                "label": "Requisitos",
+                "text": "Permiso B con al menos dos años de antigüedad y condiciones personales y profesionales."
+              },
+              {
+                "label": "Examen",
+                "text": "Lengua, medio físico, atención y accesibilidad, y marco jurídico, salvo exención."
+              },
+              {
+                "label": "Expedición",
+                "text": "Acreditar condiciones y abonar la tasa: aprobar no basta."
+              },
+              {
+                "label": "Vigencia",
+                "text": "Cinco años; después, solicitar la renovación."
+              }
+            ]
+          }
         },
         {
           "title": "Contratación previa y registro",
@@ -324,7 +1002,39 @@
             "Comunicar los datos requeridos al Registro de Comunicaciones antes del servicio.",
             "El contrato identifica el servicio y las partes; la hoja de ruta recoge datos de su realización.",
             "El ámbito territorial permitido condiciona el lugar de inicio de los servicios."
-          ]
+          ],
+          "goal": "Saber por qué un VTC necesita contratación previa y qué debe quedar registrado.",
+          "kinds": [
+            "regla",
+            "regla",
+            "clave",
+            "regla"
+          ],
+          "highlight": [
+            "antes de iniciarse",
+            "por escrito o por medios electrónicos",
+            "no opera buscando pasajeros espontáneos",
+            "Registro de Comunicaciones",
+            "hoja de ruta"
+          ],
+          "visual": {
+            "type": "steps",
+            "caption": "Cómo se hace un servicio VTC",
+            "items": [
+              {
+                "label": "Contratar antes",
+                "text": "Por escrito o por medios electrónicos, nunca captando en la calle."
+              },
+              {
+                "label": "Comunicar",
+                "text": "Datos al Registro de Comunicaciones antes del servicio."
+              },
+              {
+                "label": "Documentar",
+                "text": "El contrato identifica servicio y partes; la hoja de ruta recoge su realización."
+              }
+            ]
+          }
         },
         {
           "title": "Vehículos y distintivos",
@@ -337,7 +1047,37 @@
             "Los distintivos deben ser visibles desde el exterior.",
             "El seguro de responsabilidad civil cubre la responsabilidad frente a terceros en los términos contratados y legalmente exigidos.",
             "La antigüedad, etiqueta ambiental y excepciones se estudian junto con el régimen transitorio aplicable."
-          ]
+          ],
+          "goal": "Saber qué condiciones e identificación debe llevar el vehículo y dónde van los distintivos.",
+          "kinds": [
+            "clave",
+            "clave",
+            "regla",
+            "clave",
+            "consejo"
+          ],
+          "highlight": [
+            "parte superior derecha de la luna delantera",
+            "parte inferior izquierda de la trasera",
+            "8 × 14 cm",
+            "funciones diferentes"
+          ],
+          "visual": {
+            "type": "placement",
+            "caption": "Dónde van los distintivos VTC",
+            "items": [
+              {
+                "glass": "delantera",
+                "corner": "arriba-derecha",
+                "text": "Parte superior derecha de la luna delantera."
+              },
+              {
+                "glass": "trasera",
+                "corner": "abajo-izquierda",
+                "text": "Parte inferior izquierda de la trasera. En el banco de estudio mide 8 × 14 cm."
+              }
+            ]
+          }
         },
         {
           "title": "Usuarios, itinerario y precios",
@@ -349,6 +1089,17 @@
             "El equipaje de quienes ocupan el vehículo puede transportarse con ellos.",
             "Las tarifas se pactan, sin perjuicio de límites o medidas específicas previstos legalmente.",
             "No confundas una regla general con una excepción por alta demanda o accesibilidad."
+          ],
+          "goal": "Conocer los derechos del usuario y las reglas sobre itinerario, equipaje y precios.",
+          "kinds": [
+            "regla",
+            "clave",
+            "regla",
+            "trampa"
+          ],
+          "highlight": [
+            "solución directa o adecuada",
+            "Las tarifas se pactan"
           ]
         },
         {
@@ -361,7 +1112,33 @@
             "El inicio fuera del ámbito obligatorio aparece como muy grave.",
             "Las fuentes de muestra contienen algunas claves contradictorias: la aplicación conserva la clave de origen y muestra una nota cuando se ha detectado una discrepancia.",
             "Las explicaciones son material de estudio añadido; la fuente oficial original puede abrirse desde cada pregunta."
-          ]
+          ],
+          "goal": "Clasificar las infracciones y leer bien las preguntas sobre ellas.",
+          "kinds": [
+            "clave",
+            "clave",
+            "trampa",
+            "consejo"
+          ],
+          "highlight": [
+            "infracción grave",
+            "muy grave",
+            "una palabra puede cambiar la categoría"
+          ],
+          "visual": {
+            "type": "scale",
+            "caption": "Gravedad según el material",
+            "items": [
+              {
+                "level": "grave",
+                "text": "No llevar los distintivos exigibles."
+              },
+              {
+                "level": "muy-grave",
+                "text": "Iniciar el servicio fuera del ámbito obligatorio."
+              }
+            ]
+          }
         },
         {
           "title": "Actualización normativa de julio de 2026",
@@ -373,7 +1150,38 @@
             "Actualiza la identificación exterior de los VTC.",
             "La Comunidad de Madrid informa de la incorporación obligatoria de los nuevos distintivos desde el 3 de noviembre de 2026.",
             "Consulta los textos y la información administrativa enlazados al final del temario."
-          ]
+          ],
+          "goal": "Distinguir el material de muestra de los cambios normativos de 2026.",
+          "kinds": [
+            "clave",
+            "clave",
+            "clave",
+            "consejo"
+          ],
+          "highlight": [
+            "Decreto 59/2026",
+            "Decreto 5/2024",
+            "etiqueta C",
+            "3 de noviembre de 2026"
+          ],
+          "visual": {
+            "type": "timeline",
+            "caption": "Cronología",
+            "items": [
+              {
+                "date": "2024",
+                "text": "Decreto 5/2024: régimen VTC en Madrid."
+              },
+              {
+                "date": "Julio de 2026",
+                "text": "Decreto 59/2026: modifica el Decreto 5/2024, con excepción ambiental para adaptados con etiqueta C y nueva identificación exterior."
+              },
+              {
+                "date": "3 nov 2026",
+                "text": "Nuevos distintivos obligatorios, según la Comunidad de Madrid."
+              }
+            ]
+          }
         }
       ]
     }
