@@ -21,8 +21,11 @@ test('nivel 1 avisa del NO si la pista propia no lo hace', () => {
 test('nivel 2 usa el foco y la sección propios', () => {
   assert.deepEqual(nextHint(q,2,secs,order,custom),{level:2,text:'F',section:2});
 });
-test('nivel 2 descarta una sección fuera de rango o nula', () => {
-  for (const section of [99,-1,null,1.5]) assert.deepEqual(nextHint(q,2,secs,order,{...custom,section}),{level:2,text:'F'});
+test('nivel 2 descarta una sección fuera de rango', () => {
+  for (const section of [99,-1,1.5]) assert.deepEqual(nextHint(q,2,secs,order,{...custom,section}),{level:2,text:'F'});
+});
+test('nivel 2 con sección null indica que no hay sección que abrir', () => {
+  assert.deepEqual(nextHint(q,2,secs,order,{...custom,section:null}),{level:2,text:'F',section:null});
 });
 test('sin pista propia se mantiene el comportamiento actual', () => {
   assert.deepEqual(nextHint(q,1,secs,order),nextHint(q,1,secs,order,undefined));

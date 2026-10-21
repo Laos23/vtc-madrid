@@ -316,7 +316,7 @@ function coach(s, q, revealed, selected, hint, policy) {
   else if (revealed) text = selected === q.correct ? '¡Bien visto! Lee la explicación para fijarlo.' : 'Sin prisa: la explicación te ayuda a no repetir el error.';
   else if (hint) {
     text = hint.text;
-    if (hint.level === 2) actions += `<a class="button small text-button" href="#temario/${q.module}${hint.section != null ? `/${hint.section}` : ''}" title="La práctica queda en pausa y la retomas desde «Continuar test»">${hint.section != null ? 'Abrir esa sección' : 'Abrir el temario del módulo'}</a>`;
+    if (hint.level === 2 && hint.section !== null) actions += `<a class="button small text-button" href="#temario/${q.module}${hint.section != null ? `/${hint.section}` : ''}" title="La práctica queda en pausa y la retomas desde «Continuar test»">${hint.section != null ? 'Abrir esa sección' : 'Abrir el temario del módulo'}</a>`;
     if (hint.level < 3) actions += button(`${icon('bulb')} Otra pista <span class="hint-count">${hint.level}/3</span>`,'hint','','button small secondary');
   } else { text = 'Estoy aquí si me necesitas. Las pistas te orientan; la respuesta la eliges tú.'; actions = button(`${icon('bulb')} Pedir una pista`,'hint','','button small secondary'); }
   const hop = hopNext && hint && !revealed;

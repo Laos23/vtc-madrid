@@ -46,7 +46,8 @@ export function discardedOption(question, order) {
 export function nextHint(question, level, sections, order, custom) {
   const negated = NEGATIONS.some(rule => rule.test(question.text));
   if (custom && level <= 1) return { level: 1, text: negated && !/\bNO\b/.test(custom.concept) ? `Ojo: busca la opción que NO encaja. ${custom.concept}` : custom.concept };
-  if (custom && level === 2) return Number.isInteger(custom.section) && custom.section >= 0 && custom.section < sections.length ? { level: 2, text: custom.focus, section: custom.section } : { level: 2, text: custom.focus };
+  // section null: la pista ya dice que el temario no lo trata, así que no se ofrece enlace.
+  if (custom && level === 2) return custom.section === null ? { level: 2, text: custom.focus, section: null } : Number.isInteger(custom.section) && custom.section >= 0 && custom.section < sections.length ? { level: 2, text: custom.focus, section: custom.section } : { level: 2, text: custom.focus };
   if (level <= 1) return { level: 1, text: negated ? 'Fíjate en cómo está planteada: ¿pide lo verdadero o lo que NO lo es? Léela despacio.' : 'Relee el enunciado y descarta las opciones que lo contradigan. Una pista: busca las palabras clave.' };
   if (level === 2) {
     const section = sectionFor(question, sections);

@@ -20,3 +20,8 @@ test('las pistas no se repiten como plantilla', () => {
     assert.deepEqual(Object.entries(counts).filter(([,n]) => n>2),[],field);
   }
 });
+test('la pista de of-e7b980eb98f0e597 no promete una lista que la sección 4.4 no tiene', () => {
+  const focus = hints['of-e7b980eb98f0e597'].focus;
+  assert.doesNotMatch(focus,/compár[ae]lo con los datos/i);
+  assert.match(focus,/no los enumera/);
+});
